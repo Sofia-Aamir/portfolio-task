@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { ThemeProvider } from './Pages/ThemeContext';
 import Navbar from './Pages/Navbar';
@@ -12,11 +11,14 @@ function App() {
   return (
     <ThemeProvider>
       <Navbar />
-      <Home />
-      <About />
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      {/* Render all sections one after the other */}
+      <div>
+        <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="portfolio"><Portfolio /></section>
+        <section id="contact"><Contact /></section>
+      </div>
+      <Footer />
     </ThemeProvider>
   );
 }
