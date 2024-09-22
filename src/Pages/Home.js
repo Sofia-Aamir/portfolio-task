@@ -53,13 +53,13 @@ const Home = () => {
 
         {/* Social Icons */}
         <div className="flex justify-center md:justify-start space-x-6">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
+          <a href="https://www.instagram.com/codeanddesignwithsofia/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
             <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
+          <a href="https://www.linkedin.com/in/sofia-aamir-50b876299/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
             <FontAwesomeIcon icon={faLinkedin} className="text-2xl" />
           </a>
-          <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
+          <a href="https://github.com/Sofia-Aamir" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
             <FontAwesomeIcon icon={faGithub} className="text-2xl" />
           </a>
         </div>
