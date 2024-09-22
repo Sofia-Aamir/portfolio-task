@@ -34,6 +34,9 @@ const About = () => {
           </div>
         </div>
 
+        {/* Add vertical space only on small screens */}
+        <div className="block md:hidden my-6"></div> {/* This will add space on small screens */}
+
         {/* Education Section */}
         <div className="my-12">
           <h2 className="text-2xl font-bold text-center mb-6">Education</h2>
